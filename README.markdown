@@ -26,6 +26,7 @@ Here's what your web-based application must do:
 1. Your app must accept (via a form) a tab delimited file with the following columns: purchaser name, item description, item price, purchase count, merchant address, and merchant name.  You can assume the columns will always be in that order, that there will always be data in each column, and that there will always be a header line.  An example input file named example_input.tab is included in this repo.
 1. Your app must parse the given file, normalize the data, and store the information in a relational database.
 1. After upload, your application should display the total amount gross revenue represented by the uploaded file.
+1. Your app should be well tested.
 
 Your application does not need to:
 
